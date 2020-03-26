@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
 class BadgeNew extends React.Component{
   render(){
-    return <h1>ok this is a page</h1>;
+    return <Navbar/>;
   }
 }
 
