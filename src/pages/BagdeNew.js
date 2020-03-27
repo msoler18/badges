@@ -16,6 +16,7 @@ class BadgeNew extends React.Component{
       twitter:''
     } 
   }
+  
   handleChange = e => {
     this.setState({
       form:{
