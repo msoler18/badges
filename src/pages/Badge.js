@@ -1,7 +1,8 @@
-import React from 'react';
-import './styles/Badge.css';
-import confLogo from '../images/badge-header.svg';
+import React from 'react'
+import './styles/Badge.css'
+import confLogo from '../images/badge-header.svg'
 import Navbar from '../components/Navbar'
+import BadgeList from '../components/BadgeList'
 
 class Badge extends React.Component{
   state = {
@@ -66,13 +67,7 @@ class Badge extends React.Component{
         <div className="Badges__list">
           <div className="Badges__container">
             <ul className="list-unstyled">
-              {this.state.data.map((badge) => {
-                return(
-                  <li>
-                    <p>{badge.firstName}</p>
-                  </li>
-                )
-              })}
+              <BadgeList badges={this.state.data}/>
             </ul>
           </div>
         </div>
