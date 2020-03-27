@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BadgeNew extends React.Component{
+class BadgeForm extends React.Component{
   state= {};
 
   handleChange = e => {
@@ -81,4 +81,4 @@ class BadgeNew extends React.Component{
   }
 }
 
-export default BadgeNew;
+export default BadgeForm;
