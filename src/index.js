@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
-import BadgeNew from './pages/BagdeNew'
-import Badge from './pages/Badge'
 import App from './components/App';
 
 
