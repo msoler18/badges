@@ -2,8 +2,7 @@
   display:flex;
   justify-content: center;
   padding:2% 0;
-  margin-top:55px;
-  background:#1a1a24;
+  background:url('../../images/stars.svg'), #1a1a24;
 }
 
 .Footer__main span{
