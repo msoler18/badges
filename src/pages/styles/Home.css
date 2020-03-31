@@ -1,0 +1,30 @@
+.Home{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(1  00vh - 60px);
+  background:url('../../images/stars.svg'),#1a1a24;
+}
+
+.Home__wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+
+.Home__wrapper__content{
+  width: 30%;
+  color:white;  
+}
+
+.Home__wrapper__content h1{
+  text-transform: uppercase;
+  margin:4% 0;
+}
+
+.Home__wrapper__img{
+  width:70%;
+  padding: 0 4%;
+}
