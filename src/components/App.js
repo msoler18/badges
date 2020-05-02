@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Layout from './Layout'
 import Home from '../pages/Home'
 import Badge from '../pages/Badge'
-import BadgeNew from '../pages/BagdeNew'
+import BadgeNew from '../pages/BadgeNew'
 
 
 const App = () => {
