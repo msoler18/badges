@@ -35,6 +35,10 @@ class Badge extends React.Component{
       return 'Loading badges...';
     }
 
+    if(this.state.error){
+      return `Error: ${this.state.error.message}`;
+    }
+
     return (
       <div className="page__temp">
         <div className="Badges">
