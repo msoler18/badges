@@ -5,6 +5,7 @@ import Layout from './Layout'
 import Home from '../pages/Home'
 import Badge from '../pages/Badge'
 import BadgeNew from '../pages/BadgeNew'
+import BadgeEdit from '../pages/BadgeEdit'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route exact path="/" component={Home}/>
           <Route exact path="/badges" component={Badge}/>
           <Route exact path="/badges/new" component={BadgeNew}/>
+          <Route exact path="/badges/:badgeId/edit" component={BadgeEdit}/>
         </Switch>
       </Layout>
     </BrowserRouter>
