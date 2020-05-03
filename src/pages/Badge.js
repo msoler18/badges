@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import BadgeList from '../components/BadgeList'
 import { Link } from 'react-router-dom'
 import api from '../api'
+import PageLoader from '../components/PageLoader'
+import PageError from '../components/PageError'
 
 class Badge extends React.Component{
 
@@ -32,11 +34,11 @@ class Badge extends React.Component{
   render(){
 
     if(this.state.loading === true){
-      return 'Loading badges...';
+      return <PageLoader/>;
     }
 
     if(this.state.error){
-      return `Error: ${this.state.error.message}`;
+      return <PageError error={this.state.error.message}/>
     }
 
     return (
