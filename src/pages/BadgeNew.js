@@ -4,7 +4,7 @@ import './styles/BadgeNew.css';
 import Navbar from '../components/Navbar';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
-import header from '../images/badge-header.svg';
+import header from '../images/platziconf-logo.svg';
 
 class BadgeNew extends React.Component{
   state = { 
@@ -30,7 +30,7 @@ class BadgeNew extends React.Component{
     return(
       <div className="page__temp">
         <div className="BadgeNew__hero">
-          <img className="img-fluid" src={header} alt=""logo/>
+          <img className="BadgeNew__hero--image img-fluid" src={header} alt=""logo/>
         </div>
 
         <div className="container">
