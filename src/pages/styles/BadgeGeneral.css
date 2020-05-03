@@ -1,4 +1,4 @@
-.BadgeNew__hero {
+.BadgeGeneral__hero {
   display:flex;
   justify-content: center;
   width: 100%;
@@ -9,6 +9,6 @@
   color: #ffffff;
 }
 
-.BadgeNew__hero--image{
+.BadgeGeneral__hero--image{
   max-height: 100px;
 }

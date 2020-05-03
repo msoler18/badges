@@ -19,6 +19,7 @@ class Badge extends React.Component{
 
   componentDidMount(){
     this.fetchData();
+    setInterval(this.fetchData,5000)
   }
 
 

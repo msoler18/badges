@@ -20,7 +20,7 @@
     },
     {
       "id": "63c03386-33a2-4512-9ac1-354ad7bec5e9",
-      "firstName": "Daphney",
+      "firstName": "Daphney Marc",
       "lastName": "Torphy",
       "email": "Ron61@hotmail.com",
       "jobTitle": "National Markets Officer",
@@ -440,6 +440,55 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "FirstName": "Miguel",
+      "lastName": "Soler",
+      "email": "msoler735@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "msoler18",
+      "id": "b1AGqXg"
+    },
+    {
+      "FirstName": "Miguel",
+      "lastName": "Soler",
+      "email": "msoler735@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "msoler18",
+      "id": "Ccj0MYm"
+    },
+    {
+      "FirstName": "Miguel",
+      "lastName": "Soler",
+      "email": "msoler735@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "msoler18",
+      "id": "1JoJD3e"
+    },
+    {
+      "FirstName": "Paola",
+      "lastName": "Caicedo",
+      "email": "pcaicedo@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "pcaicedo",
+      "id": "XbRnpt9",
+      "firstName": "Paola"
+    },
+    {
+      "FirstName": "Andrea",
+      "lastName": "Soto",
+      "email": "asoto@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "asoto",
+      "id": "KgWxD7S"
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Mesa Nuñez",
+      "email": "rodrigo@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "rmesa",
+      "id": "Gxn9AZ6"
     }
   ]
 }
