@@ -9,6 +9,10 @@
   color: #ffffff;
 }
 
+.Badge__container{
+  padding:5% 0;
+}
+
 .BadgeGeneral__hero--image{
   max-height: 100px;
 }
