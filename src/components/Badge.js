@@ -3,8 +3,6 @@ import './styles/Badge.css'
 import confLogo from '../images/badge-header.svg'
 import Gravatar from './Gravatar'
 
-const container = document.getElementById('test')
-
 class Badge extends React.Component{
   render(){
     return <div className="Badge">

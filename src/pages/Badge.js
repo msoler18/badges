@@ -27,7 +27,7 @@ class Badge extends React.Component{
     clearInterval(this.intervalId)
   }
 
-  fetchData = async () => {
+  fetchData = async (e) => {
     this.setState({loading:true,error:null});
     try {
       const data = await api.badges.list();
